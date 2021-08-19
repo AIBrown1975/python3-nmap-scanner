@@ -1,15 +1,9 @@
 #!/usr/bin/python3
 
-import nmap3
-from scannerfuncts import *
-import json
-
-print("welcome to my automated nmap scanning tool")
-print("created by Alex as the first module towards an automated recon tool")
-print("Any problems or feedback please contact Alex in the first instance")
-print("Feel free to share this with other testers")
 # Scanner.py needs to be run as root, ensure sudo is used when not root
 
+import nmap3
+from scannerfuncts import *
 
 
 # User input to identify scan type
